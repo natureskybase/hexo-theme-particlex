@@ -486,7 +486,7 @@
     font-size: 13px;
     line-height: 2;
     overflow: auto;
-    padding: 50px 30px 20px;
+    padding: 20px 30px;
     white-space: pre;
 }
 .comment iframe,
@@ -579,7 +579,7 @@ body::-webkit-scrollbar-track {
     white-space: normal !important;
 }
 .language {
-    background: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    /* background: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
     border-radius: 0 0 10px 10px;
     box-shadow: 1px 1px 0.75rem #ed6ea14d;
     color: #fff;
@@ -588,7 +588,8 @@ body::-webkit-scrollbar-track {
     left: 30px;
     padding: 10px 15px;
     position: absolute;
-    top: 0;
+    top: 0; */
+    display: none;
 }
 .page-num,
 .icon-link a,
