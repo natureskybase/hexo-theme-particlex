@@ -24,7 +24,12 @@
     <%- theme.card.enable || 'class="home-posts-wrap-no-card"' %>
 >
     <div id="home-posts">
+        <% if (theme.search.enable) { %>
+        <input id="search-bar" class="input" placeholder="搜索文章" v-model="rawSearch" />
+        <% } %>
+        <div ref="timeline">
         <%- partial("posts") %>
+        </div>
         <%- partial("current") %>
     </div>
     <% if (theme.card.enable) { %>
